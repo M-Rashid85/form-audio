@@ -1,0 +1,119 @@
+.container{
+font-family: 'Quicksand', sans-serif;
+width: 1200px;;
+margin: auto;
+}
+header{
+  background-color: #5CBAFF;
+  position: fixed;
+  width: 100%;
+
+}
+header ul{
+
+  padding:  20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul li{
+  color: #fff;
+  padding: 0 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+header nav ul li a {
+  color: #fff;
+  box-shadow: 0px 4px 7px rgba(62, 112, 227, 0.36);
+}
+header nav ul li a:hover{
+  box-shadow: 0px 0px 0px rgba(62, 112, 227, 0.36);
+  color: rgb(240, 79, 79);
+  transition: all .4s ease;
+}
+header img{
+  max-width: 100px;
+}
+.content{
+  background-color:#0093FF;
+  display: flex;
+  align-items: center;
+}
+
+.content .infoContent{
+  background: #5CBAFF url(../images/info.png);
+  height: 100vh;
+  max-width:45%;
+  flex: 0 0 45%;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.content .formContent{
+
+  max-width: 55%;
+  flex:0 0 55%;
+  background-color: #0093FF;
+}
+
+.formAll{
+  font-family: 'Quicksand', sans-serif;
+  margin: 50px 200px 0 330px;
+}
+.formAll h2{
+  color: #fff;
+  text-transform: capitalize;
+}
+.formAll h3{
+  margin-top: 7px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.formAll p{
+  margin-top: 40px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.form{
+  margin-top: 9px;
+}
+.form input{
+  width: 100%;
+  padding: 7px 10px;
+  font-size: 17px;
+  margin: 3px 0px
+
+}
+::placeholder{
+  color:#1d2f3d7d;
+}
+.form input[type="submit"]{
+  background-color: #fff;
+  width: auto;
+  color: #5CBAFF;
+  box-shadow: 0px 6px 10px #67649b;
+  cursor: help;
+}
+.form input[type="submit"]:hover{
+  box-shadow: 0px 0px 0px #67649b;
+  background: #26acd7;
+  color: black;
+  transition: all .5s ease;
+}
+.registerWith{
+  display: flex;
+  margin-top: 50px;
+
+}
+.registerWith p{
+  font-size: 12px;
+  margin: auto;
+  margin-left: 0;
+      margin-right: 25px;
+}
+.registerWith ul a {
+margin: auto;
+padding-right: 2px;
+color: #fff;
+}
